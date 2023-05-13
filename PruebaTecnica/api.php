@@ -65,7 +65,7 @@ if ($result->num_rows > 0) {
     );
 
     header('Content-Type: application/json');
-    // echo json_encode($response);
+     echo json_encode($response);
 } else {
 
     //Se insertan los datos a la tabla VENTAS
